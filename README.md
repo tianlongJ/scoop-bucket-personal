@@ -17,4 +17,4 @@ scoop bucket add siku https://github.com/amorphobia/siku
 scoop bucket add personal https://github.com/tianlongJ/scoop-bucket-personal
 
 有乱七八糟的应用清单覆盖问题，不使用，遇到找不到的应用可以到这个仓库搜索：  
-https://gitee.com/wlzwme/scoop-proxy-cn.git
+https://github.com/wlzwme/scoop-proxy-cn.git
