@@ -13,6 +13,7 @@ scoop bucket add extras-plus https://github.com/Scoopforge/Extras-Plus
 scoop bucket add winapps https://github.com/WinApps-share/WinApps-bucket  
 scoop bucket add zapps https://github.com/kkzzhizhou/scoop-zapps  
 scoop bucket add dorado https://github.com/chawyehsu/dorado  
+scoop bucket add siku https://github.com/amorphobia/siku  
 scoop bucket add personal https://github.com/tianlongJ/scoop-bucket-personal
 
 有乱七八糟的应用清单覆盖问题，不使用，遇到找不到的应用可以到这个仓库搜索：  
