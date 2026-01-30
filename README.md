@@ -5,6 +5,7 @@ scoop bucket add nirsoft
 scoop bucket add sysinternals  
 scoop bucket add nonportable  
 scoop bucket add java
+scoop bucket add games
 
 scoop bucket add extras-cn https://github.com/Scoopforge/Extras-CN  
 scoop bucket add main-plus https://github.com/Scoopforge/Main-Plus  
