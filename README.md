@@ -10,7 +10,6 @@ scoop bucket add games
 scoop bucket add extras-cn https://github.com/Scoopforge/Extras-CN  
 scoop bucket add main-plus https://github.com/Scoopforge/Main-Plus  
 scoop bucket add extras-plus https://github.com/Scoopforge/Extras-Plus  
-scoop bucket add winapps https://github.com/WinApps-share/WinApps-bucket  
 scoop bucket add dorado https://github.com/chawyehsu/dorado  
 scoop bucket add siku https://github.com/amorphobia/siku  
 scoop bucket add personal https://github.com/tianlongJ/scoop-bucket-personal
