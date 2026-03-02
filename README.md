@@ -11,7 +11,6 @@ scoop bucket add extras-cn https://github.com/Scoopforge/Extras-CN
 scoop bucket add main-plus https://github.com/Scoopforge/Main-Plus  
 scoop bucket add extras-plus https://github.com/Scoopforge/Extras-Plus  
 scoop bucket add dorado https://github.com/chawyehsu/dorado  
-scoop bucket add siku https://github.com/amorphobia/siku  
 scoop bucket add personal https://github.com/tianlongJ/scoop-bucket-personal
 
 有乱七八糟的应用清单覆盖问题，不使用，遇到找不到的应用可以到这个仓库搜索：  
