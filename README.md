@@ -1,16 +1,8 @@
 scoop bucket add main  
 scoop bucket add extras  
 scoop bucket add versions  
-scoop bucket add nirsoft  
-scoop bucket add sysinternals  
-scoop bucket add nonportable  
 scoop bucket add java  
-scoop bucket add games
-
-scoop bucket add extras-cn https://github.com/Scoopforge/Extras-CN  
-scoop bucket add main-plus https://github.com/Scoopforge/Main-Plus  
-scoop bucket add extras-plus https://github.com/Scoopforge/Extras-Plus  
-scoop bucket add dorado https://github.com/chawyehsu/dorado  
+scoop bucket add abyss https://github.com/abgox/abyss
 scoop bucket add doge https://github.com/WantChane/doge_bucket.git
 scoop bucket add personal https://github.com/tianlongJ/scoop-bucket-personal
 
