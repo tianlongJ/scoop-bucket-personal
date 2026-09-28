@@ -27,8 +27,8 @@
         ]
     ],
     "checkver": {
-        "url": "https://www.axure.com/release-history",
-        "re": "<h3>Axure RP ([\\d.]+)</h3>"
+        "url": "https://www.axure.com/release-history/rp9",
+        "regex": "<h3>Axure RP (9\\.\\d+\\.\\d+\\.\\d+)</h3>"
     },
     "autoupdate": {
         "url": "https://axure.cachefly.net/versions/$majorVersion-$minorVersion/AxureRP-Setup-$buildVersion.exe#/installer.exe"

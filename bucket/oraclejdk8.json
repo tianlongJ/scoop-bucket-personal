@@ -36,8 +36,8 @@
     "JAVA_HOME": "$dir"
   },
   "checkver": {
-    "url": "https://sourceforge.net/projects/tomato-extra/files/apps/",
-    "regex": "jdk-(8u\\d+)-windows-x64.exe"
+    "url": "https://sourceforge.net/projects/tomato-extra/rss?path=/apps",
+    "regex": "jdk-(8u\\d+)-windows-x64\\.exe"
   },
   "autoupdate": {
     "architecture": {
