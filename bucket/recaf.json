@@ -1,23 +1,39 @@
 {
-    "version": "4.0.0",
-    "homepage": "https://github.com/Col-E/Recaf",
+    "version": "4.0.0-alpha",
     "description": "The modern Java bytecode editor",
+    "homepage": "https://recaf.coley.software/",
     "license": "MIT",
+    "notes": "Java 22 or newer is required.",
     "suggest": {
         "JDK": "java/openjdk"
     },
-    "url": "https://github.com/Col-E/Recaf/releases/download/4.0.0-alpha/recaf-4x-alpha-win-86x64.jar#/recaf.jar",
-    "hash": "",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Col-E/Recaf/releases/download/4.0.0-alpha/recaf-4x-alpha-win-86-x64.jar#/recaf.jar",
+            "hash": "6ea81d1c1f2467a01e7271ad9e9e76296d71ad7e9ccb92542283657c46bb0842"
+        }
+    },
     "pre_install": "Set-Content \"$dir\\recaf.bat\" '@start javaw.exe -jar \"%~dp0recaf.jar\" %*' -Encoding Ascii",
-    "bin": "recaf.jar",
+    "bin": "recaf.bat",
     "shortcuts": [
         [
             "recaf.bat",
             "Recaf"
         ]
     ],
-    "checkver": "github",
+    "checkver": {
+        "github": "https://github.com/Col-E/Recaf",
+        "regex": "/releases/tag/(?<version>\\d+(?:\\.\\d+)+(?:-[\\w.]+)?)"
+    },
     "autoupdate": {
-        "url": "https://github.com/Col-E/Recaf/releases/download/$version-alpha/recaf-4x-alpha-win-86x64.jar#/recaf.jar"
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Col-E/Recaf/releases/download/$version/recaf-4x-alpha-win-86-x64.jar#/recaf.jar",
+                "hash": {
+                    "url": "https://github.com/Col-E/Recaf/releases/expanded_assets/$version",
+                    "regex": "recaf-[\\w.-]*win-86-x64\\.jar[\\s\\S]*?sha256:([a-fA-F0-9]{64})"
+                }
+            }
+        }
     }
 }
